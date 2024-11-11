@@ -27,12 +27,23 @@ The tool also supports **automatic retries**, file upload validation, and vulner
 Before you begin, make sure you have:
 
 - **Python 3.6+**: WebShellUploader is built for Python 3.6 and above. 🔑
-- **Required Libraries**: Install the necessary libraries using `pip`:
-    ```bash
-    pip install requests validators
-    ```
 
 ---
+
+## 📥 **Installation**
+
+1. **Clone into the repository**
+
+```python
+git clone https://github.com/Fear2o/ShellKill
+```
+
+2. **Move to its directory**
+
+```bash
+cd ShellKill
+```
+
 
 ## 📝 **Usage**
 
@@ -49,7 +60,7 @@ Before you begin, make sure you have:
 ### 🖥️ **Example Command**
 
 ```bash
-python webshell_uploader.py http://example.com /path/to/shell.php http://example.com/upload --max_retries 5 --evasion_techniques True --timeout 10
+python ShellKill.py http://example.com /path/to/shell.php http://example.com/upload --max_retries 5 --evasion_techniques True --timeout 10
 ```
 
 
@@ -105,6 +116,6 @@ file for more details. 📝
 ### **🏅 Thank you for your support! 🙌**
 Keep hacking responsibly and stay awesome! 😎
 
-***____________________________________________________***
+---
 
 *Crafted by Fear.io*
