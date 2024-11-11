@@ -58,11 +58,15 @@ python webshell_uploader.py http://example.com /path/to/shell.php http://example
 All actions performed by **ShellKill** are logged into a rotating log file named upload_log.txt. Here's an example of what the logs might look like:
 
 2024-11-10 12:34:56,789 - INFO - Target URL http://example.com is reachable.
-2024-11-10 12:35:00,123 - INFO - Shell file /path/to/shell.php is valid and readable.
-2024-11-10 12:35:05,456 - INFO - Attempting upload with renamed shell: shell_1234.php.
-2024-11-10 12:35:10,789 - ERROR - Request failed (Attempt 1): Timeout error.
-2024-11-10 12:35:15,123 - INFO - Shell uploaded successfully: /path/to/shell.php.
 
+2024-11-10 12:35:00,123 - INFO - Shell file /path/to/shell.php is valid and readable.
+
+2024-11-10 12:35:05,456 - INFO - Attempting upload with renamed shell: shell_1234.php.
+
+2024-11-10 12:35:10,789 - ERROR - Request failed (Attempt 1): Timeout error.
+
+2024-11-10 12:35:15,123 - INFO - Shell uploaded successfully: /path/to/shell.php.
+![Example](https://github.com/Fear2o/ShellKill/blob/main/assets/Example.PNG)
 
 ## 📈 How to Contribute 💡
 
