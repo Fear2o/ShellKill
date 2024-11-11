@@ -7,6 +7,11 @@ The tool also supports **automatic retries**, file upload validation, and vulner
 
 > **Warning:** This tool can potentially cause significant damage if misused. Only use it in controlled environments where explicit permission has been granted. 🚨
 
+![GitHub stars](https://img.shields.io/github/stars/Fear2o/ShellKill?style=social)
+![Build Status](https://img.shields.io/github/workflow/status/Fear2o/ShellKill/CI)
+![License](https://img.shields.io/github/license/Fear2o/ShellKill)
+![Contributors](https://img.shields.io/github/contributors/Fear2o/ShellKill)
+
 ### 🚀 **Key Features:**
 
 - **Shell File Upload**: Easily upload a web shell to a target server via a specified URL. ⚡
