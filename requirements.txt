@@ -1,0 +1,6 @@
+validators==0.18.2
+requests==2.28.0
+colorama==0.4.6
+pyfiglet==0.8.post1
+beautifulsoup4==4.12.2
+lxml==4.9.3
