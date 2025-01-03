@@ -216,6 +216,5 @@ def main():
         uploader.evasion_bypass()
         uploader.handle_retry()
 
-
 if __name__ == "__main__":
     main()
